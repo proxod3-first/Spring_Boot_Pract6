@@ -50,6 +50,7 @@ public abstract class AbstractController<E extends AbstractEntity<F>, S extends 
     @Override
     public ResponseEntity updateOne(Long id, @Valid F form) {
         try {
+            service.updateOne(id, form);
             return ResponseEntity.ok(service.updateOne(id, form));
         }catch (NotFoundException e){
             return ResponseEntity.badRequest().body(e.getMessage());

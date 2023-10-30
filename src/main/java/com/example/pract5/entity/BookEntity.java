@@ -1,7 +1,6 @@
 package com.example.pract5.entity;
 
 
-import com.example.pract5.entity.template.AbstractEntity;
 import com.example.pract5.entity.template.AbstractProductEntity;
 import com.example.pract5.entity.template.Type;
 import com.example.pract5.form.BookForm;

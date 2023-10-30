@@ -1,7 +1,6 @@
 package com.example.pract5.entity.template;
 
-import com.example.pract5.form.BookForm;
-import com.example.pract5.form.template.AbstractProductForm;
+
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
